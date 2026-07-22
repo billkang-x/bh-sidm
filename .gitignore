@@ -58,6 +58,7 @@ paper/*.out
 paper/*.synctex.gz
 paper/*.toc
 paper/revision_build.*
+paper/release_build.*
 paper/pdf_page*.png
 paper/preview-*.png
 paper/reader-check-*.png
