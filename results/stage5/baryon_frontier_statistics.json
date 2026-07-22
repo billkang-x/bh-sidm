@@ -1,0 +1,66 @@
+{
+  "best_by_redshift": {
+    "z10": {
+      "assembly_time_myr": 0.65,
+      "baryon_accreted_onto_bh_msun": 30332.167457493037,
+      "baryon_fraction": 0.16,
+      "black_hole_growth_factor": 18.317983309008344,
+      "dark_fraction_of_growth": 0.9824851618596422,
+      "dark_matter_accreted_msun": 1701466.1634433644,
+      "final_black_hole_mass_msun": 1831798.3309008344,
+      "halo_redshift": 10.0,
+      "mass_budget_residual_code": 1.438849039914203e-13,
+      "scale_radius_over_rs": 0.003,
+      "steps": 1710786,
+      "task_id": 19
+    },
+    "z20": {
+      "assembly_time_myr": 1.5,
+      "baryon_accreted_onto_bh_msun": 53847.926715691356,
+      "baryon_fraction": 0.16,
+      "black_hole_growth_factor": 36.74406135539789,
+      "dark_fraction_of_growth": 0.9849351403635855,
+      "dark_matter_accreted_msun": 3520558.208824343,
+      "final_black_hole_mass_msun": 3674406.1355397888,
+      "halo_redshift": 20.0,
+      "mass_budget_residual_code": 1.2443379659998755e-12,
+      "scale_radius_over_rs": 0.003,
+      "steps": 4712061,
+      "task_id": 47
+    },
+    "z30": {
+      "assembly_time_myr": 1.5,
+      "baryon_accreted_onto_bh_msun": 99281.61694961769,
+      "baryon_fraction": 0.16,
+      "black_hole_growth_factor": 69.56695707989473,
+      "dark_fraction_of_growth": 0.9855204866633275,
+      "dark_matter_accreted_msun": 6757414.091040134,
+      "final_black_hole_mass_msun": 6956695.707989473,
+      "halo_redshift": 30.0,
+      "mass_budget_residual_code": 8.72191208145523e-13,
+      "scale_radius_over_rs": 0.003,
+      "steps": 10067590,
+      "task_id": 74
+    }
+  },
+  "case_count": 81,
+  "global_best_case": {
+    "assembly_time_myr": 1.5,
+    "baryon_accreted_onto_bh_msun": 99281.61694961769,
+    "baryon_fraction": 0.16,
+    "black_hole_growth_factor": 69.56695707989473,
+    "dark_fraction_of_growth": 0.9855204866633275,
+    "dark_matter_accreted_msun": 6757414.091040134,
+    "final_black_hole_mass_msun": 6956695.707989473,
+    "halo_redshift": 30.0,
+    "mass_budget_residual_code": 8.72191208145523e-13,
+    "scale_radius_over_rs": 0.003,
+    "steps": 10067590,
+    "task_id": 74
+  },
+  "maximum_mass_budget_residual_code": 6.8967054289714724e-12,
+  "target_reached_counts": {
+    "1e+06": 34,
+    "1e+07": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "controls_accreted_dark_matter_msun": {
+    "10.0": 33.45725787292557,
+    "30.0": 23.78671196938302,
+    "50.0": 22.122633083633488,
+    "100.0": 23.751374967003457
+  },
+  "global_maximum": {
+    "accreted_dark_matter_msun": 3422.102425603808,
+    "assembly_time_myr": 0.5,
+    "enhancement_over_matched_control": 102.28281225560501,
+    "scale_radius_over_rs": 0.01,
+    "sigma_over_m_cm2_g": 10.0,
+    "task_id": 7
+  },
+  "global_minimum": {
+    "accreted_dark_matter_msun": 27.029318863250467,
+    "assembly_time_myr": 1.0,
+    "enhancement_over_matched_control": 1.1380107004668523,
+    "scale_radius_over_rs": 0.3,
+    "sigma_over_m_cm2_g": 100.0,
+    "task_id": 163
+  }
+}

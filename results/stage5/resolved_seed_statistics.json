@@ -1,0 +1,47 @@
+{
+  "best_final_mass_case": {
+    "baryon_accreted_onto_bh_msun": 11974.029435146002,
+    "black_hole_growth_factor": 5.642340165658195,
+    "black_hole_seed_msun": 100000.0,
+    "dark_accreted_halo_fraction": 0.00045225998713064637,
+    "dark_fraction_of_growth": 0.9742069107219862,
+    "dark_matter_accreted_msun": 452259.98713064636,
+    "final_black_hole_mass_msun": 564234.0165658195,
+    "halo_mass_msun": 1000000000.0,
+    "halo_redshift": 30.0,
+    "halo_scale_density_msun_pc3": 6.236766360950961,
+    "mass_budget_residual_code": 2.1049828546892968e-13,
+    "r_min_over_influence_radius": 0.4166666666666666,
+    "seed_to_halo_ratio": 0.0001,
+    "steps": 1258949,
+    "task_id": 19
+  },
+  "case_count": 20,
+  "largest_growth_factor_case": {
+    "baryon_accreted_onto_bh_msun": 24.32350332800197,
+    "black_hole_growth_factor": 18.20848112096927,
+    "black_hole_seed_msun": 100.0,
+    "dark_accreted_halo_fraction": 0.0016965246087689077,
+    "dark_fraction_of_growth": 0.9858653979063963,
+    "dark_matter_accreted_msun": 1696.5246087689077,
+    "final_black_hole_mass_msun": 1820.848112096927,
+    "halo_mass_msun": 1000000.0,
+    "halo_redshift": 30.0,
+    "halo_scale_density_msun_pc3": 6.236766360950959,
+    "mass_budget_residual_code": 5.666578317686799e-13,
+    "r_min_over_influence_radius": 0.41666666666666663,
+    "seed_to_halo_ratio": 0.0001,
+    "steps": 1627595,
+    "task_id": 4
+  },
+  "maximum_mass_budget_residual_code": 5.666578317686799e-13,
+  "r_min_over_influence_radius_range": [
+    0.4166666666666666,
+    0.4166666666666667
+  ],
+  "target_reached_counts": {
+    "1e+05": 5,
+    "1e+06": 0,
+    "1e+07": 0
+  }
+}

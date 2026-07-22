@@ -1,0 +1,40 @@
+{
+  "audited_screen_point_count": 64,
+  "maximum_mass_budget_residual_code": 4.5416115312946204e-11,
+  "models": {
+    "constant_sigma1": {
+      "audited_count": 16,
+      "boundary_ambiguous_count": 2,
+      "maximum_boundary_relative_difference": 1.9236022811739268,
+      "robust_failure_count": 8,
+      "robust_success_count": 6,
+      "terminal_mass_five_percent_count": 0
+    },
+    "vd_high_transport": {
+      "audited_count": 16,
+      "boundary_ambiguous_count": 7,
+      "maximum_boundary_relative_difference": 1.9247467179096305,
+      "robust_failure_count": 7,
+      "robust_success_count": 2,
+      "terminal_mass_five_percent_count": 0
+    },
+    "vd_low_transport": {
+      "audited_count": 16,
+      "boundary_ambiguous_count": 0,
+      "maximum_boundary_relative_difference": 1.906609385746269,
+      "robust_failure_count": 16,
+      "robust_success_count": 0,
+      "terminal_mass_five_percent_count": 1
+    },
+    "vd_matched_transport": {
+      "audited_count": 16,
+      "boundary_ambiguous_count": 1,
+      "maximum_boundary_relative_difference": 1.6712734247114591,
+      "robust_failure_count": 15,
+      "robust_success_count": 0,
+      "terminal_mass_five_percent_count": 0
+    }
+  },
+  "refinement_case_count": 80,
+  "target_mass_msun": 10000000.0
+}

@@ -1,0 +1,20 @@
+{
+  "case_count": 6,
+  "convergence_by_concentration": {
+    "c10": {
+      "baseline_mass_msun": 9607365.953059535,
+      "grid_256_to_512_relative_difference": 0.01026384273752895,
+      "passes_five_percent_convergence": false,
+      "smallest_boundary_mass_msun": 7337711.009853513,
+      "smallest_boundary_pair_relative_difference": 0.12420037678737898
+    },
+    "c12": {
+      "baseline_mass_msun": 11498229.559386166,
+      "grid_256_to_512_relative_difference": 0.011948539086368955,
+      "passes_five_percent_convergence": false,
+      "smallest_boundary_mass_msun": 8495375.531819168,
+      "smallest_boundary_pair_relative_difference": 0.13452511797808384
+    }
+  },
+  "maximum_mass_budget_residual_code": 2.6989077639427705e-11
+}

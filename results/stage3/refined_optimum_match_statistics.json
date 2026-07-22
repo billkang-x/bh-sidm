@@ -1,0 +1,20 @@
+{
+  "initial_collision_time_myr": {
+    "maximum_assembly_over_local": 7.422017725333052,
+    "median_assembly_over_local": 2.8420850119790257,
+    "minimum_assembly_over_local": 0.7390987169649373,
+    "rms_log10_ratio_dex": 0.5446035054384814
+  },
+  "initial_conduction_time_myr": {
+    "maximum_assembly_over_local": 1.1641809972587318,
+    "median_assembly_over_local": 0.9674023372513287,
+    "minimum_assembly_over_local": 0.5733682904735949,
+    "rms_log10_ratio_dex": 0.1310728242177689
+  },
+  "initial_dynamical_time_myr": {
+    "maximum_assembly_over_local": 1.1631855455440148,
+    "median_assembly_over_local": 1.1073565142293926,
+    "minimum_assembly_over_local": 0.9849159206112265,
+    "rms_log10_ratio_dex": 0.04551692165481143
+  }
+}

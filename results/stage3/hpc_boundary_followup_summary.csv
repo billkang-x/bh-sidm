@@ -1,0 +1,10 @@
+case,sigma_over_m_cm2_g,scale_radius_over_rs,assembly_time_myr,r_min_pc,enhancement_over_matched_control
+Global maximum,10.0,0.01,0.5,0.0025,99.75972452436511
+Global maximum,10.0,0.01,0.5,0.005,102.28281225560501
+Global maximum,10.0,0.01,0.5,0.01,103.37667281499945
+High-sigma compact,100.0,0.01,1.0,0.0025,20.6067339530446
+High-sigma compact,100.0,0.01,1.0,0.005,26.204738083743784
+High-sigma compact,100.0,0.01,1.0,0.01,36.43371967968614
+Weak extended,100.0,0.3,1.0,0.0025,1.1387550986006008
+Weak extended,100.0,0.3,1.0,0.005,1.1380107004668523
+Weak extended,100.0,0.3,1.0,0.01,1.141293669394021

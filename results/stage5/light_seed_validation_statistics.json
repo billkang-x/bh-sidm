@@ -1,0 +1,11 @@
+{
+  "case_count": 5,
+  "direct_effective_lambda_after_assembly": {
+    "0.0520833333333": 0.26061803241945286,
+    "0.104166666667": 0.264532131280989,
+    "0.208333333333": 0.27117481130564236
+  },
+  "lambda_025_maximum_final_mass_relative_difference": 1.9299968063010409,
+  "lambda_025_passes_five_percent_validation": false,
+  "maximum_mass_budget_residual_code": 4.7199577579704055e-11
+}

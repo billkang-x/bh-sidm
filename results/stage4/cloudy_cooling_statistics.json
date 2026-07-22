@@ -1,0 +1,32 @@
+{
+  "case_count": 39,
+  "cooling_suppression_bracket": {
+    "heating_extreme_Z0": [
+      3e-06,
+      1e-05
+    ],
+    "heating_extreme_Z1": [
+      3e-06,
+      1e-05
+    ],
+    "mixed_extreme_Z0": [
+      1.0,
+      null
+    ],
+    "mixed_extreme_Z1": [
+      1.0,
+      null
+    ]
+  },
+  "maximum_mass_budget_residual_code": 7.336353746723034e-13,
+  "minimum_physical_cooling_time_myr": 0.00021485294438996466,
+  "optically_thin_case_count": 21,
+  "optically_thin_prevention_by_configuration": {
+    "heating_extreme": 0,
+    "heating_strong": 0,
+    "mixed_extreme": 5,
+    "mixed_strong": 0,
+    "no_feedback_control": 0
+  },
+  "optically_thin_prevention_count": 5
+}

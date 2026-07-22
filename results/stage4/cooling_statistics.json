@@ -1,0 +1,64 @@
+{
+  "case_count": 48,
+  "maximum_mass_budget_residual_code": 7.434053372890048e-13,
+  "retained_thermal_energy_fraction_range": [
+    0.001467556833769262,
+    1.0000000000000362
+  ],
+  "threshold_diagnostics": {
+    "heating_strong": {
+      "first_preventing_cooling_time_myr": 0.5,
+      "first_preventing_dark_matter_accreted_msun": 1290.7160524003114,
+      "first_preventing_final_sound_speed_km_s": 16.737421657787326,
+      "first_preventing_retained_thermal_energy_fraction": 0.47876133979916374,
+      "last_reclosure_time_myr": null,
+      "last_transition_time_myr": 1.28,
+      "last_transitioning_cooling_time_myr": 0.3
+    },
+    "heating_threshold": {
+      "first_preventing_cooling_time_myr": 30.0,
+      "first_preventing_dark_matter_accreted_msun": 1291.2956632780608,
+      "first_preventing_final_sound_speed_km_s": 16.98336911034251,
+      "first_preventing_retained_thermal_energy_fraction": 0.9836866441740832,
+      "last_reclosure_time_myr": 1.68,
+      "last_transition_time_myr": 1.45,
+      "last_transitioning_cooling_time_myr": 10.0
+    },
+    "mixed_strong": {
+      "first_preventing_cooling_time_myr": 0.2,
+      "first_preventing_dark_matter_accreted_msun": 1141.7618357173276,
+      "first_preventing_final_sound_speed_km_s": 12.576082239160115,
+      "first_preventing_retained_thermal_energy_fraction": 0.23691829670480377,
+      "last_reclosure_time_myr": 1.76,
+      "last_transition_time_myr": 1.36,
+      "last_transitioning_cooling_time_myr": 0.15
+    },
+    "mixed_threshold": {
+      "first_preventing_cooling_time_myr": 3.0,
+      "first_preventing_dark_matter_accreted_msun": 1205.2683427950656,
+      "first_preventing_final_sound_speed_km_s": 14.453357810083167,
+      "first_preventing_retained_thermal_energy_fraction": 0.8497130536410993,
+      "last_reclosure_time_myr": 1.6600000000000001,
+      "last_transition_time_myr": 1.31,
+      "last_transitioning_cooling_time_myr": 2.0
+    }
+  },
+  "transition_prevention_cooling_time_bracket_myr": {
+    "heating_strong": [
+      0.3,
+      0.5
+    ],
+    "heating_threshold": [
+      10.0,
+      30.0
+    ],
+    "mixed_strong": [
+      0.15,
+      0.2
+    ],
+    "mixed_threshold": [
+      2.0,
+      3.0
+    ]
+  }
+}

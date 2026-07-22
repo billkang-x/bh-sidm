@@ -1,0 +1,29 @@
+{
+  "best_by_redshift": {
+    "z20": {
+      "assembly_time_myr": 1.25,
+      "baryon_accreted_onto_bh_msun": 56861.00818724721,
+      "dark_fraction_of_growth": 0.9842284849770836,
+      "dark_matter_accreted_msun": 3548436.777365007,
+      "final_black_hole_mass_msun": 3705297.7855519266,
+      "halo_redshift": 20.0,
+      "mass_budget_residual_code": 7.434053372890048e-13,
+      "steps": 4936706,
+      "task_id": 1
+    },
+    "z30": {
+      "assembly_time_myr": 1.25,
+      "baryon_accreted_onto_bh_msun": 105979.22428055588,
+      "dark_fraction_of_growth": 0.9846586648855784,
+      "dark_matter_accreted_msun": 6802104.29590646,
+      "final_black_hole_mass_msun": 7008083.520188078,
+      "halo_redshift": 30.0,
+      "mass_budget_residual_code": 4.654054919228656e-13,
+      "steps": 10573868,
+      "task_id": 6
+    }
+  },
+  "case_count": 10,
+  "maximum_mass_budget_residual_code": 1.2754242106893798e-12,
+  "target_1e7_reached_count": 0
+}

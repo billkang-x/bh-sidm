@@ -1,0 +1,45 @@
+name: experiment_0_baseline
+description: Baseline no-baryon runs matching the local SIDM black-hole accretion paper.
+
+common:
+  halo_total_mass_msun: 1.0e6
+  redshift: 25
+  black_hole_seed_mass_msun: 100.0
+  sigma_over_m_cm2_g: 50.0
+  duration_myr: 2.0
+
+sis:
+  profile: singular_isothermal_sphere
+  sound_speed_km_s: 4.2
+  domain_pc: [0.001, 1000.0]
+  grid_cells: 128
+  cfl_number: 0.8
+
+nfw:
+  profile: nfw
+  scale_radius_pc: 30.0
+  scale_density_msun_pc3: 3.7
+  domain_pc: [0.005, 5000.0]
+  grid_cells: 256
+  cfl_number: 0.2
+
+numerics:
+  reconstruction: mc
+  riemann_solver: roe
+  entropy_fix: 0.1
+  positivity_fallback: false
+  source_integration: euler
+
+sensitivity:
+  inner_boundary_factor: [0.5, 1.0, 2.0]
+  outer_boundary_factor: [0.5, 1.0, 2.0]
+  cfl_number: [0.1, 0.2, 0.4]
+  entropy_fix: [0.0, 0.1, 0.2]
+
+diagnostics:
+  - black_hole_mass_history
+  - sidm_accretion_rate_history
+  - density_profiles
+  - radial_velocity_profiles
+  - velocity_dispersion_profiles
+  - heat_flow_on_off_comparison

@@ -1,0 +1,37 @@
+{
+  "case_count": 10,
+  "maximum_mass_budget_residual_code": 1.5444534540165478e-11,
+  "sensitivity_by_seed": {
+    "100": {
+      "mass_at_lambda_020_msun": 102.58650139180416,
+      "mass_at_lambda_030_msun": 103.9300613428713,
+      "reaches_1e7_at_lambda_020": false,
+      "reaches_1e7_at_lambda_030": false
+    },
+    "1000": {
+      "mass_at_lambda_020_msun": 1089.650576342751,
+      "mass_at_lambda_030_msun": 1113.2622611158079,
+      "reaches_1e7_at_lambda_020": false,
+      "reaches_1e7_at_lambda_030": false
+    },
+    "10000": {
+      "mass_at_lambda_020_msun": 15587.641721575792,
+      "mass_at_lambda_030_msun": 19052.30482102489,
+      "reaches_1e7_at_lambda_020": false,
+      "reaches_1e7_at_lambda_030": false
+    },
+    "30000": {
+      "mass_at_lambda_020_msun": 58383.949641035404,
+      "mass_at_lambda_030_msun": 83770.347552297,
+      "reaches_1e7_at_lambda_020": false,
+      "reaches_1e7_at_lambda_030": false
+    },
+    "40000": {
+      "mass_at_lambda_020_msun": 85470.01550319667,
+      "mass_at_lambda_030_msun": 15422865.860698378,
+      "reaches_1e7_at_lambda_020": false,
+      "reaches_1e7_at_lambda_030": true
+    }
+  },
+  "stellar_light_seeds_fail_across_lambda_range": true
+}

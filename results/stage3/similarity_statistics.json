@@ -1,0 +1,22 @@
+{
+  "all_cases_present": true,
+  "fully_self_similar_fractional_spread": {
+    "baryon": 2.4638760536627502e-14,
+    "control": 1.5315228418825953e-14
+  },
+  "growth_mass_slopes": {
+    "fixed_physical_seed_boundary_sigma": {
+      "baryon": -0.2554144785813578,
+      "control": -0.044780352594067055
+    },
+    "fully_dimensionless_self_similar": {
+      "baryon": 0.9999999999999994,
+      "control": 0.9999999999999981
+    },
+    "scaled_seed_boundary_fixed_sigma": {
+      "baryon": 0.744496460671496,
+      "control": 1.0677077210759331
+    }
+  },
+  "maximum_mass_budget_residual_code": 5.302425165609748e-13
+}

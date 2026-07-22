@@ -1,0 +1,34 @@
+{
+  "collision_time_myr": {
+    "log10_pearson_correlation": -0.35397485968689374,
+    "maximum_absolute_log10_ratio_dex": 0.9367031164602851,
+    "maximum_assembly_over_local": 8.643768290986007,
+    "median_assembly_over_local": 2.0133273963608502,
+    "minimum_assembly_over_local": 0.4948011816888703,
+    "rms_log10_ratio_dex": 0.5095622923521945
+  },
+  "conduction_gradient_time_myr": {
+    "log10_pearson_correlation": 0.3123851495089258,
+    "maximum_absolute_log10_ratio_dex": 0.4588961410360781,
+    "maximum_assembly_over_local": 1.0825507207151093,
+    "median_assembly_over_local": 0.9844739987798736,
+    "minimum_assembly_over_local": 0.3476192826050532,
+    "rms_log10_ratio_dex": 0.20169253830807435
+  },
+  "conduction_radius_time_myr": {
+    "log10_pearson_correlation": 0.3123851495089258,
+    "maximum_absolute_log10_ratio_dex": 0.4588961410360781,
+    "maximum_assembly_over_local": 1.0825507207151093,
+    "median_assembly_over_local": 0.9844739987798736,
+    "minimum_assembly_over_local": 0.3476192826050532,
+    "rms_log10_ratio_dex": 0.20169253830807435
+  },
+  "dynamical_time_myr": {
+    "log10_pearson_correlation": 0.7667938058428218,
+    "maximum_absolute_log10_ratio_dex": 0.14860767368272434,
+    "maximum_assembly_over_local": 1.4080162714918634,
+    "median_assembly_over_local": 0.9849159206112265,
+    "minimum_assembly_over_local": 0.7754570303626764,
+    "rms_log10_ratio_dex": 0.06479143684045259
+  }
+}

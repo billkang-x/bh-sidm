@@ -1,0 +1,43 @@
+{
+  "ambiguous_seed_masses_msun": [
+    32500.0,
+    35000.0,
+    37500.0
+  ],
+  "case_count": 9,
+  "classification_by_seed": {
+    "32500": {
+      "boundary_relative_difference": 1.9768081536990791,
+      "classification": "ambiguous",
+      "fine_grid_time_to_1e7_myr": null,
+      "grid_relative_difference": 0.005309372835903355,
+      "large_boundary_final_mass_msun": 77806.96050149646,
+      "large_boundary_time_to_1e7_myr": null,
+      "small_boundary_final_mass_msun": 13341902.620517258,
+      "small_boundary_time_to_1e7_myr": 1.87
+    },
+    "35000": {
+      "boundary_relative_difference": 1.9744468115657154,
+      "classification": "ambiguous",
+      "fine_grid_time_to_1e7_myr": null,
+      "grid_relative_difference": 0.0054459652102778104,
+      "large_boundary_final_mass_msun": 86680.0107409488,
+      "large_boundary_time_to_1e7_myr": null,
+      "small_boundary_final_mass_msun": 13481882.826552752,
+      "small_boundary_time_to_1e7_myr": 1.86
+    },
+    "37500": {
+      "boundary_relative_difference": 1.971998731731872,
+      "classification": "ambiguous",
+      "fine_grid_time_to_1e7_myr": null,
+      "grid_relative_difference": 0.005528405999902035,
+      "large_boundary_final_mass_msun": 95875.95431349217,
+      "large_boundary_time_to_1e7_myr": null,
+      "small_boundary_final_mass_msun": 13600068.585830247,
+      "small_boundary_time_to_1e7_myr": 1.85
+    }
+  },
+  "highest_robust_failure_seed_msun": null,
+  "lowest_robust_success_seed_msun": null,
+  "maximum_mass_budget_residual_code": 3.524824876421917e-11
+}

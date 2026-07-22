@@ -1,0 +1,16 @@
+{
+  "all_cases_present": true,
+  "baryon_growth_boost_over_isolated_eddington_range": [
+    1.9219384746448518,
+    15.22945576638855
+  ],
+  "catalytic_dark_mass_per_baryon_mass_range": [
+    0.37054993528356034,
+    1.7778553994347162
+  ],
+  "dark_fraction_of_growth_range_full_eddington": [
+    0.9692035299206021,
+    0.989912913244959
+  ],
+  "maximum_mass_budget_residual_code": 6.67021993194794e-13
+}

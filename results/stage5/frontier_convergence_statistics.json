@@ -1,0 +1,96 @@
+{
+  "case_count": 40,
+  "convergence_by_model": {
+    "extreme": {
+      "baseline": {
+        "axis": "baseline",
+        "axis_value": 0.0,
+        "baryon_accreted_msun": 1383374.3420653823,
+        "baryon_scale_radius_over_r_min": 2.0,
+        "cfl": 0.2,
+        "dark_matter_accreted_msun": 87406802.11295909,
+        "entropy_fix": 0.1,
+        "final_black_hole_mass_msun": 88890176.45502855,
+        "grid": 256,
+        "halo_concentration": 12.0,
+        "inner_boundary": 0.20833333333333334,
+        "mass_budget_residual_code": 5.170974759494129e-12,
+        "model": "extreme",
+        "scale_radius_over_rs": 0.0005,
+        "sigma_over_m_cm2_g": 100.0,
+        "steps": 36492424,
+        "task_id": 28
+      },
+      "cfl_mass_spread_fraction": 2.631616839093785e-07,
+      "entropy_mass_spread_fraction": 0.0003582058029174198,
+      "grid_384_to_512_relative_difference": 0.004307017553215568,
+      "passes_five_percent_convergence": false,
+      "smallest_boundary_a_over_r_min": 7.999999999999999,
+      "smallest_boundary_mass_msun": 30811872.405498486,
+      "smallest_boundary_pair_relative_difference": 0.565487018882551
+    },
+    "representative": {
+      "baseline": {
+        "axis": "baseline",
+        "axis_value": 0.0,
+        "baryon_accreted_msun": 163027.60717895438,
+        "baryon_scale_radius_over_r_min": 18.0,
+        "cfl": 0.2,
+        "dark_matter_accreted_msun": 7937158.172075979,
+        "entropy_fix": 0.1,
+        "final_black_hole_mass_msun": 8200185.779256175,
+        "grid": 256,
+        "halo_concentration": 8.0,
+        "inner_boundary": 0.20833333333333334,
+        "mass_budget_residual_code": 2.780886632081092e-12,
+        "model": "representative",
+        "scale_radius_over_rs": 0.003,
+        "sigma_over_m_cm2_g": 1.0,
+        "steps": 12301323,
+        "task_id": 0
+      },
+      "cfl_mass_spread_fraction": 2.854686823604572e-06,
+      "entropy_mass_spread_fraction": 1.6698550957491269e-06,
+      "grid_384_to_512_relative_difference": 0.0010400113680698493,
+      "passes_five_percent_convergence": true,
+      "smallest_boundary_a_over_r_min": 71.99999999999999,
+      "smallest_boundary_mass_msun": 7603413.006878379,
+      "smallest_boundary_pair_relative_difference": 0.0323731649733786
+    },
+    "resolved_high": {
+      "baseline": {
+        "axis": "baseline",
+        "axis_value": 0.0,
+        "baryon_accreted_msun": 293240.76279183896,
+        "baryon_scale_radius_over_r_min": 12.0,
+        "cfl": 0.2,
+        "dark_matter_accreted_msun": 21563831.13820573,
+        "entropy_fix": 0.1,
+        "final_black_hole_mass_msun": 21957071.90099782,
+        "grid": 256,
+        "halo_concentration": 12.0,
+        "inner_boundary": 0.20833333333333334,
+        "mass_budget_residual_code": 1.7363888105137448e-12,
+        "model": "resolved_high",
+        "scale_radius_over_rs": 0.003,
+        "sigma_over_m_cm2_g": 100.0,
+        "steps": 15681056,
+        "task_id": 14
+      },
+      "cfl_mass_spread_fraction": 5.6787856544549705e-08,
+      "entropy_mass_spread_fraction": 0.00046949688902302395,
+      "grid_384_to_512_relative_difference": 0.005704182814410839,
+      "passes_five_percent_convergence": false,
+      "smallest_boundary_a_over_r_min": 95.99999999999999,
+      "smallest_boundary_mass_msun": 3024847.3026270266,
+      "smallest_boundary_pair_relative_difference": 0.6359782051376551
+    }
+  },
+  "expected_case_count": 42,
+  "maximum_mass_budget_residual_code": 9.369838238626471e-11,
+  "maximum_steps": 154191674,
+  "missing_task_ids": [
+    5,
+    33
+  ]
+}

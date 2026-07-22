@@ -1,0 +1,16 @@
+{
+  "all_cases_present": true,
+  "always_bondi_limited_cases": 3,
+  "baryon_accreted_range_msun": [
+    0.17326641410105484,
+    19.79968124342655
+  ],
+  "initially_eddington_limited_cases": 3,
+  "maximum_absolute_transition_mass_relative_error": 0.012560209147625541,
+  "maximum_mass_budget_residual_code": 3.801403636316536e-13,
+  "sidm_driven_transition_cases": 3,
+  "transition_time_range_myr": [
+    0.89,
+    1.61
+  ]
+}

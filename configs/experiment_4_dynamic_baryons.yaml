@@ -1,0 +1,32 @@
+name: experiment_4_dynamic_baryons
+description: Eddington-limited baryon accretion and Hernquist expansion feedback.
+
+baseline:
+  halo_mass_msun: 1.0e6
+  black_hole_seed_msun: [10.0, 100.0, 1000.0]
+  duration_myr: 2.0
+  baryon_fraction: 0.05
+  baryon_scale_radius_over_rs: 0.01
+  baryon_assembly_time_myr: 0.65
+  sigma_over_m_cm2_g: 50.0
+
+baryon_accretion:
+  eddington_ratio: [0.0, 0.1, 1.0]
+  duty_cycle: 1.0
+  radiative_efficiency: 0.1
+  finite_reservoir: true
+  black_hole_retained_fraction: one_minus_radiative_efficiency
+
+feedback:
+  model: hernquist_scale_radius_expansion
+  feedback_efficiency: [0.0, 1.0e-5, 1.0e-4, 1.0e-3, 1.0e-2]
+  expansion_exponent: [0.5, 1.0]
+  binding_energy: hernquist_self_potential
+
+outputs:
+  - total_black_hole_mass_history
+  - dark_matter_accreted_mass_history
+  - baryon_accreted_mass_history
+  - dark_and_baryon_accretion_rates
+  - baryon_reservoir_and_scale_radius_history
+  - feedback_to_binding_energy_history

@@ -1,0 +1,292 @@
+{
+  "best_by_halo_mass_and_redshift": {
+    "M1e+06_z10": {
+      "baryon_accreted_onto_bh_msun": 28.767554114537877,
+      "black_hole_growth_factor": 17.920176726671826,
+      "black_hole_seed_msun": 100.0,
+      "dark_fraction_of_growth": 0.9829980770419019,
+      "dark_matter_accreted_msun": 1663.2501185527547,
+      "final_black_hole_mass_msun": 1792.0176726671825,
+      "halo_concentration": 8.0,
+      "halo_mass_msun": 1000000.0,
+      "halo_redshift": 10.0,
+      "mass_budget_residual_code": 1.6431300764452317e-13,
+      "r_min_over_influence_radius": 0.20833333333333331,
+      "sigma_over_m_cm2_g": 10.0,
+      "steps": 1042707,
+      "task_id": 8
+    },
+    "M1e+06_z20": {
+      "baryon_accreted_onto_bh_msun": 84.64366402521605,
+      "black_hole_growth_factor": 48.57626322933139,
+      "black_hole_seed_msun": 100.0,
+      "dark_fraction_of_growth": 0.9822088456975027,
+      "dark_matter_accreted_msun": 4672.982658908212,
+      "final_black_hole_mass_msun": 4857.626322933139,
+      "halo_concentration": 8.0,
+      "halo_mass_msun": 1000000.0,
+      "halo_redshift": 20.0,
+      "mass_budget_residual_code": 1.8820500713445654e-12,
+      "r_min_over_influence_radius": 0.20833333333333331,
+      "sigma_over_m_cm2_g": 10.0,
+      "steps": 4483496,
+      "task_id": 20
+    },
+    "M1e+06_z30": {
+      "baryon_accreted_onto_bh_msun": 141.69925759494356,
+      "black_hole_growth_factor": 78.41856797917143,
+      "black_hole_seed_msun": 100.0,
+      "dark_fraction_of_growth": 0.9816969932028767,
+      "dark_matter_accreted_msun": 7600.157540322511,
+      "final_black_hole_mass_msun": 7841.856797917143,
+      "halo_concentration": 8.0,
+      "halo_mass_msun": 1000000.0,
+      "halo_redshift": 30.0,
+      "mass_budget_residual_code": 3.5065284009760944e-12,
+      "r_min_over_influence_radius": 0.20833333333333331,
+      "sigma_over_m_cm2_g": 10.0,
+      "steps": 10202022,
+      "task_id": 32
+    },
+    "M1e+07_z10": {
+      "baryon_accreted_onto_bh_msun": 234.799671970969,
+      "black_hole_growth_factor": 16.32364266569066,
+      "black_hole_seed_msun": 1000.0,
+      "dark_fraction_of_growth": 0.9846772939637624,
+      "dark_matter_accreted_msun": 15088.842993719933,
+      "final_black_hole_mass_msun": 16323.642665690659,
+      "halo_concentration": 8.0,
+      "halo_mass_msun": 10000000.0,
+      "halo_redshift": 10.0,
+      "mass_budget_residual_code": 1.3322676295501878e-13,
+      "r_min_over_influence_radius": 0.20833333333333331,
+      "sigma_over_m_cm2_g": 10.0,
+      "steps": 952255,
+      "task_id": 44
+    },
+    "M1e+07_z20": {
+      "baryon_accreted_onto_bh_msun": 620.2789152568866,
+      "black_hole_growth_factor": 45.69339444894689,
+      "black_hole_seed_msun": 1000.0,
+      "dark_fraction_of_growth": 0.9861214632965744,
+      "dark_matter_accreted_msun": 44073.115533686505,
+      "final_black_hole_mass_msun": 45693.39444894689,
+      "halo_concentration": 8.0,
+      "halo_mass_msun": 10000000.0,
+      "halo_redshift": 20.0,
+      "mass_budget_residual_code": 3.5349501104064984e-13,
+      "r_min_over_influence_radius": 0.20833333333333331,
+      "sigma_over_m_cm2_g": 10.0,
+      "steps": 3785753,
+      "task_id": 56
+    },
+    "M1e+07_z30": {
+      "baryon_accreted_onto_bh_msun": 1001.4509321642203,
+      "black_hole_growth_factor": 73.09215114727442,
+      "black_hole_seed_msun": 1000.0,
+      "dark_fraction_of_growth": 0.9861087383821556,
+      "dark_matter_accreted_msun": 71090.70021509445,
+      "final_black_hole_mass_msun": 73092.15114727442,
+      "halo_concentration": 8.0,
+      "halo_mass_msun": 10000000.0,
+      "halo_redshift": 30.0,
+      "mass_budget_residual_code": 3.3857361358968774e-12,
+      "r_min_over_influence_radius": 0.20833333333333331,
+      "sigma_over_m_cm2_g": 10.0,
+      "steps": 8376553,
+      "task_id": 68
+    },
+    "M1e+08_z10": {
+      "baryon_accreted_onto_bh_msun": 1493.437581733286,
+      "black_hole_growth_factor": 9.871156800410459,
+      "black_hole_seed_msun": 10000.0,
+      "dark_fraction_of_growth": 0.9831652442254074,
+      "dark_matter_accreted_msun": 87218.13042237432,
+      "final_black_hole_mass_msun": 98711.56800410459,
+      "halo_concentration": 8.0,
+      "halo_mass_msun": 100000000.0,
+      "halo_redshift": 10.0,
+      "mass_budget_residual_code": 2.2026824808563106e-13,
+      "r_min_over_influence_radius": 0.20833333333333331,
+      "sigma_over_m_cm2_g": 10.0,
+      "steps": 799807,
+      "task_id": 80
+    },
+    "M1e+08_z20": {
+      "baryon_accreted_onto_bh_msun": 3217.932119634171,
+      "black_hole_growth_factor": 24.740671041138402,
+      "black_hole_seed_msun": 10000.0,
+      "dark_fraction_of_growth": 0.9864454879389409,
+      "dark_matter_accreted_msun": 234188.77829173655,
+      "final_black_hole_mass_msun": 247406.710411384,
+      "halo_concentration": 8.0,
+      "halo_mass_msun": 100000000.0,
+      "halo_redshift": 20.0,
+      "mass_budget_residual_code": 2.611244553918368e-13,
+      "r_min_over_influence_radius": 0.2083333333333333,
+      "sigma_over_m_cm2_g": 10.0,
+      "steps": 2867067,
+      "task_id": 92
+    },
+    "M1e+08_z30": {
+      "baryon_accreted_onto_bh_msun": 5585.16105599464,
+      "black_hole_growth_factor": 43.61817511473056,
+      "black_hole_seed_msun": 10000.0,
+      "dark_fraction_of_growth": 0.986894884539346,
+      "dark_matter_accreted_msun": 420596.59009129653,
+      "final_black_hole_mass_msun": 436181.75114730565,
+      "halo_concentration": 8.0,
+      "halo_mass_msun": 100000000.0,
+      "halo_redshift": 30.0,
+      "mass_budget_residual_code": 1.1395329124752607e-12,
+      "r_min_over_influence_radius": 0.20833333333333331,
+      "sigma_over_m_cm2_g": 10.0,
+      "steps": 6455253,
+      "task_id": 104
+    },
+    "M1e+09_z10": {
+      "baryon_accreted_onto_bh_msun": 9592.77136313203,
+      "black_hole_growth_factor": 4.911620004392943,
+      "black_hole_seed_msun": 100000.0,
+      "dark_fraction_of_growth": 0.9754762186705644,
+      "dark_matter_accreted_msun": 381569.2290761365,
+      "final_black_hole_mass_msun": 491162.0004392943,
+      "halo_concentration": 8.0,
+      "halo_mass_msun": 1000000000.0,
+      "halo_redshift": 10.0,
+      "mass_budget_residual_code": 7.194245199571014e-14,
+      "r_min_over_influence_radius": 0.20833333333333331,
+      "sigma_over_m_cm2_g": 10.0,
+      "steps": 684598,
+      "task_id": 116
+    },
+    "M1e+09_z20": {
+      "baryon_accreted_onto_bh_msun": 19359.073104510775,
+      "black_hole_growth_factor": 12.419695200404606,
+      "black_hole_seed_msun": 100000.0,
+      "dark_fraction_of_growth": 0.9830476446484142,
+      "dark_matter_accreted_msun": 1122610.4469360549,
+      "final_black_hole_mass_msun": 1241969.5200404606,
+      "halo_concentration": 8.0,
+      "halo_mass_msun": 1000000000.0,
+      "halo_redshift": 20.0,
+      "mass_budget_residual_code": 1.5720758028692217e-13,
+      "r_min_over_influence_radius": 0.2083333333333333,
+      "sigma_over_m_cm2_g": 10.0,
+      "steps": 2363895,
+      "task_id": 128
+    },
+    "M1e+09_z30": {
+      "baryon_accreted_onto_bh_msun": 35939.22166451514,
+      "black_hole_growth_factor": 25.49291392161644,
+      "black_hole_seed_msun": 100000.0,
+      "dark_fraction_of_growth": 0.9853266860040638,
+      "dark_matter_accreted_msun": 2413352.1704969127,
+      "final_black_hole_mass_msun": 2549291.392161644,
+      "halo_concentration": 8.0,
+      "halo_mass_msun": 1000000000.0,
+      "halo_redshift": 30.0,
+      "mass_budget_residual_code": 6.181721801112872e-13,
+      "r_min_over_influence_radius": 0.2083333333333333,
+      "sigma_over_m_cm2_g": 10.0,
+      "steps": 5385603,
+      "task_id": 140
+    }
+  },
+  "best_concentration_counts": {
+    "3": 0,
+    "5": 0,
+    "8": 12
+  },
+  "best_global_case": {
+    "baryon_accreted_onto_bh_msun": 141.69925759494356,
+    "black_hole_growth_factor": 78.41856797917143,
+    "black_hole_seed_msun": 100.0,
+    "dark_fraction_of_growth": 0.9816969932028767,
+    "dark_matter_accreted_msun": 7600.157540322511,
+    "final_black_hole_mass_msun": 7841.856797917143,
+    "halo_concentration": 8.0,
+    "halo_mass_msun": 1000000.0,
+    "halo_redshift": 30.0,
+    "mass_budget_residual_code": 3.5065284009760944e-12,
+    "r_min_over_influence_radius": 0.20833333333333331,
+    "sigma_over_m_cm2_g": 10.0,
+    "steps": 10202022,
+    "task_id": 32
+  },
+  "best_sigma_counts": {
+    "10": 12,
+    "100": 0,
+    "30": 0,
+    "50": 0
+  },
+  "case_count": 144,
+  "maximum_mass_budget_residual_code": 3.5065284009760944e-12,
+  "r_min_over_influence_radius_range": [
+    0.2083333333333333,
+    0.5555555555555556
+  ],
+  "representative_transport_regime_M1e9_z30_c8": {
+    "sigma_10": {
+      "assembled": {
+        "conductivity_cgs": 3125584.153553218,
+        "knudsen_number": 0.003406347742911658,
+        "radius_pc": 1.2303807027815552,
+        "time_myr": 0.65
+      },
+      "initial": {
+        "conductivity_cgs": 492842.7666817621,
+        "knudsen_number": 0.08399125485251137,
+        "radius_pc": 1.2303807027815552,
+        "time_myr": 0.0
+      }
+    },
+    "sigma_100": {
+      "assembled": {
+        "conductivity_cgs": 317403.859194411,
+        "knudsen_number": 0.0003386804525614321,
+        "radius_pc": 1.2303807027815552,
+        "time_myr": 0.65
+      },
+      "initial": {
+        "conductivity_cgs": 49565.858937677425,
+        "knudsen_number": 0.008399125485251138,
+        "radius_pc": 1.2303807027815552,
+        "time_myr": 0.0
+      }
+    },
+    "sigma_30": {
+      "assembled": {
+        "conductivity_cgs": 1052776.0292558798,
+        "knudsen_number": 0.0011325486643537215,
+        "radius_pc": 1.2303807027815552,
+        "time_myr": 0.65
+      },
+      "initial": {
+        "conductivity_cgs": 165123.17603825356,
+        "knudsen_number": 0.027997084950837126,
+        "radius_pc": 1.2303807027815552,
+        "time_myr": 0.0
+      }
+    },
+    "sigma_50": {
+      "assembled": {
+        "conductivity_cgs": 633606.7030951552,
+        "knudsen_number": 0.0006780837580519684,
+        "radius_pc": 1.2303807027815552,
+        "time_myr": 0.65
+      },
+      "initial": {
+        "conductivity_cgs": 99114.55775120159,
+        "knudsen_number": 0.016798250970502276,
+        "radius_pc": 1.2303807027815552,
+        "time_myr": 0.0
+      }
+    }
+  },
+  "target_reached_counts": {
+    "1e+05": 46,
+    "1e+06": 6,
+    "1e+07": 0
+  }
+}

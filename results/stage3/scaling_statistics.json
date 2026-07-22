@@ -1,0 +1,41 @@
+{
+  "all_tasks_present": true,
+  "assembly_clock_baryon_fraction_exponent": 0.6029702557768261,
+  "assembly_clock_normalization_at_fb_0p05": 1.0575229712410583,
+  "baryon_fraction_growth_slopes_by_halo_mass": {
+    "1e+06": 0.501052285306844,
+    "1e+07": 0.43937693703378783,
+    "1e+08": 0.6210053715099699
+  },
+  "baseline_predictor_within_25_percent_by_baryon_fraction": {
+    "0.01": 0.0,
+    "0.05": 1.0,
+    "0.16": 0.0
+  },
+  "baseline_predictor_within_25_percent_fraction": 0.3333333333333333,
+  "control_halo_mass_growth_slope": -0.044780352594067055,
+  "halo_mass_growth_slopes_by_baryon_fraction": {
+    "0.01": -0.2384879719528311,
+    "0.05": -0.24535051141832456,
+    "0.16": -0.16073719260208916
+  },
+  "maximum_mass_budget_residual_code": 1.8189894035458565e-12,
+  "maximum_nfw_concentration_spread": 0.0,
+  "median_quadratic_peak_multiplier_by_baryon_fraction": {
+    "0.01": 0.380382799927405,
+    "0.05": 1.1972557841355327,
+    "0.16": 1.9842386461759303
+  },
+  "optimal_assembly_multipliers": [
+    0.0,
+    1.25,
+    2.0,
+    0.5,
+    1.25,
+    2.0,
+    0.5,
+    0.75,
+    1.5
+  ],
+  "quadratic_peak_bracketed_fraction": 0.8888888888888888
+}

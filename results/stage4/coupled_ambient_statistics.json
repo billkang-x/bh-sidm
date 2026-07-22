@@ -1,0 +1,61 @@
+{
+  "case_count": 65,
+  "dynamic_dark_matter_accreted_range_msun": [
+    763.5056666727813,
+    1292.4485764832762
+  ],
+  "maximum_final_sound_speed_km_s": 30.43799769605325,
+  "maximum_mass_budget_residual_code": 7.176481631177012e-13,
+  "minimum_final_density_fraction": 0.10461303844410134,
+  "threshold_case_diagnostics": {
+    "0.0": {
+      "baryon_accreted_onto_bh_msun": 14.313805406695064,
+      "dark_matter_suppression_fraction": 0.21642567702530724,
+      "feedback_efficiency": 0.00017,
+      "final_density_fraction": 0.23152209158676892,
+      "final_sound_speed_km_s": 10.0
+    },
+    "0.5": {
+      "baryon_accreted_onto_bh_msun": 15.773559390329742,
+      "dark_matter_suppression_fraction": 0.0661854607065987,
+      "feedback_efficiency": 7e-05,
+      "final_density_fraction": 0.6201925153799502,
+      "final_sound_speed_km_s": 14.918328029457843
+    },
+    "1.0": {
+      "baryon_accreted_onto_bh_msun": 17.149708933549167,
+      "dark_matter_suppression_fraction": 0.0009331192004370381,
+      "feedback_efficiency": 5e-05,
+      "final_density_fraction": 0.9996188953570322,
+      "final_sound_speed_km_s": 17.03999147675086
+    }
+  },
+  "transient_eddington_cases": [
+    {
+      "feedback_efficiency": 0.00013,
+      "feedback_heating_fraction": 0.0,
+      "reclosure_time_myr": 1.97,
+      "task_id": 56,
+      "transition_time_myr": 1.26
+    }
+  ],
+  "transition_prevention_bracket_by_heating_fraction": {
+    "0.0": [
+      0.00013,
+      0.00017
+    ],
+    "0.5": [
+      5e-05,
+      7e-05
+    ],
+    "1.0": [
+      4e-05,
+      5e-05
+    ]
+  },
+  "transition_prevention_threshold_by_heating_fraction": {
+    "0.0": 0.00017,
+    "0.5": 7e-05,
+    "1.0": 5e-05
+  }
+}

@@ -1,0 +1,65 @@
+name: experiment_1_static_baryons
+description: Static Hernquist baryonic potential for the first baryon-aided SIDM accretion test.
+
+halo:
+  profile: nfw
+  total_mass_msun: [1.0e6, 1.0e7, 1.0e8]
+  redshift: [15, 20, 25]
+  concentration: null
+
+pilot:
+  halo_mass_msun: 1.0e6
+  redshift: 25
+  scale_radius_pc: 30.0
+  scale_density_msun_pc3: 3.7
+  duration_myr: 2.0
+  domain_pc: [0.005, 5000.0]
+  grid_cells: 256
+
+black_hole:
+  seed_mass_msun: [10.0, 100.0, 1000.0]
+
+sidm:
+  sigma_over_m_cm2_g: [10.0, 30.0, 50.0, 100.0]
+
+baryons:
+  profile: hernquist
+  fraction: [0.0, 0.01, 0.05, 0.16]
+  scale_radius_over_rs: [0.001, 0.01, 0.1]
+  growth_time_myr: null
+
+assembly_history:
+  initial_pressure_protocol: hydrostatic_dm_bh_no_baryon
+  mass_growth_law: smoothstep
+  assembly_time_myr: [0.0, 0.05, 0.2, 0.5, 1.0]
+  representative_scale_radius_over_rs: [0.01, 0.1]
+  exact_final_mass: true
+
+mechanism_followup:
+  timescales: [dynamical, collision, conduction_radius, conduction_gradient, inflow]
+  supply_radius_definition: inward_flux_log_radius_median_inside_rs
+  compact_refined_assembly_time_myr: [0.3, 0.35, 0.4, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.85, 1.0, 1.25, 1.5, 2.0]
+  heat_off_control: true
+
+initial_conditions:
+  density_protocol: fixed_nfw
+  pressure_protocol: hydrostatic_dm_bh_static_baryon
+
+numerics:
+  reconstruction: mc
+  riemann_solver: roe
+  cfl_number: 0.2
+  entropy_fix: 0.1
+  positivity_fallback: false
+  source_integration: euler
+
+boundary_check_pc: [0.0025, 0.005, 0.01]
+
+outputs:
+  - black_hole_mass_history
+  - sidm_accretion_rate_history
+  - density_profiles
+  - velocity_dispersion_profiles
+  - baryon_enhancement_factor
+  - baryon_mass_fraction_history
+  - local_timescale_profiles

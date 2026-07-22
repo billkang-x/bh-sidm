@@ -1,0 +1,56 @@
+{
+  "all_seed_masses_pass_five_percent_convergence": false,
+  "case_count": 16,
+  "convergence_by_seed": {
+    "100": {
+      "dark_capture_fraction": 0.00022985358043279387,
+      "dark_fraction_of_growth": 0.9997114924511747,
+      "grid_relative_difference": 4.831163662049376e-05,
+      "passes_five_percent_convergence": true,
+      "smallest_boundary_final_mass_msun": 103.25391473414264,
+      "smallest_boundary_growth_factor": 1.0325391473414265,
+      "smallest_boundary_pair_relative_difference": 0.012416464738666328,
+      "time_to_1e5_msun_myr": null,
+      "time_to_1e6_msun_myr": null,
+      "time_to_1e7_msun_myr": null
+    },
+    "1000": {
+      "dark_capture_fraction": 0.001953477729458693,
+      "dark_fraction_of_growth": 0.9989855329646379,
+      "grid_relative_difference": 5.3003075468813653e-05,
+      "passes_five_percent_convergence": true,
+      "smallest_boundary_final_mass_msun": 1103.168202408652,
+      "smallest_boundary_growth_factor": 1.103168202408652,
+      "smallest_boundary_pair_relative_difference": 0.019706645983488577,
+      "time_to_1e5_msun_myr": null,
+      "time_to_1e6_msun_myr": null,
+      "time_to_1e7_msun_myr": null
+    },
+    "10000": {
+      "dark_capture_fraction": 0.0010635610842938356,
+      "dark_fraction_of_growth": 0.9969210049668047,
+      "grid_relative_difference": 0.0017541143862540133,
+      "passes_five_percent_convergence": false,
+      "smallest_boundary_final_mass_msun": 17187.590249239387,
+      "smallest_boundary_growth_factor": 1.7187590249239386,
+      "smallest_boundary_pair_relative_difference": 0.1443107443050328,
+      "time_to_1e5_msun_myr": null,
+      "time_to_1e6_msun_myr": null,
+      "time_to_1e7_msun_myr": null
+    },
+    "100000": {
+      "dark_capture_fraction": 1.0,
+      "dark_fraction_of_growth": 0.9915719994770112,
+      "grid_relative_difference": 0.0033481660675709155,
+      "passes_five_percent_convergence": false,
+      "smallest_boundary_final_mass_msun": 14523493.698055012,
+      "smallest_boundary_growth_factor": 145.23493698055012,
+      "smallest_boundary_pair_relative_difference": 0.07140222892742187,
+      "time_to_1e5_msun_myr": 0.0,
+      "time_to_1e6_msun_myr": 1.1,
+      "time_to_1e7_msun_myr": 1.76
+    }
+  },
+  "light_seed_reaches_1e7_within_2_myr": false,
+  "maximum_mass_budget_residual_code": 5.490186083534354e-11
+}

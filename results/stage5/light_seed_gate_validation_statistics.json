@@ -1,0 +1,7 @@
+{
+  "case_count": 5,
+  "maximum_mass_budget_residual_code": 2.923972175494782e-11,
+  "passes_five_percent_resolved_validation": true,
+  "resolved_smallest_two_maximum_relative_difference": 2.9045888055012506e-07,
+  "switch_threshold_mass_spread_fraction": 2.4223180645197415e-06
+}

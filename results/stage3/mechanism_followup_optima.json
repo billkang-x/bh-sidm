@@ -1,0 +1,47 @@
+{
+  "0.0": {
+    "accreted_dark_matter_msun": 275.07948643546337,
+    "assembly_time_myr": 1.0,
+    "conduction": "disabled",
+    "enhancement_over_matched_control": 2.9359080209341983,
+    "final_accretion_rate_msun_myr": 155.6363731660095,
+    "peak_accretion_rate_msun_myr": 161.59507259411401,
+    "sigma_over_m_cm2_g": 0.0
+  },
+  "10.0": {
+    "accreted_dark_matter_msun": 3426.33749296896,
+    "assembly_time_myr": 0.6,
+    "conduction": "implicit",
+    "enhancement_over_matched_control": 102.40939368021658,
+    "final_accretion_rate_msun_myr": 1824.5710164144796,
+    "peak_accretion_rate_msun_myr": 2723.4755361948164,
+    "sigma_over_m_cm2_g": 10.0
+  },
+  "100.0": {
+    "accreted_dark_matter_msun": 634.3651184147352,
+    "assembly_time_myr": 0.75,
+    "conduction": "implicit",
+    "enhancement_over_matched_control": 26.708564000864182,
+    "final_accretion_rate_msun_myr": 686.9723206016806,
+    "peak_accretion_rate_msun_myr": 686.9723206016806,
+    "sigma_over_m_cm2_g": 100.0
+  },
+  "30.0": {
+    "accreted_dark_matter_msun": 2253.708057317796,
+    "assembly_time_myr": 0.5,
+    "conduction": "implicit",
+    "enhancement_over_matched_control": 94.74651478601363,
+    "final_accretion_rate_msun_myr": 2651.0365663373323,
+    "peak_accretion_rate_msun_myr": 2651.0365663373323,
+    "sigma_over_m_cm2_g": 30.0
+  },
+  "50.0": {
+    "accreted_dark_matter_msun": 1276.8893979229065,
+    "assembly_time_myr": 0.65,
+    "conduction": "implicit",
+    "enhancement_over_matched_control": 57.718689863710665,
+    "final_accretion_rate_msun_myr": 1637.408177142105,
+    "peak_accretion_rate_msun_myr": 1637.408177142105,
+    "sigma_over_m_cm2_g": 50.0
+  }
+}

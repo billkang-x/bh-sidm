@@ -1,0 +1,19 @@
+{
+  "all_cases_present": true,
+  "effective_to_self_binding_ratio": 2.46290933703723,
+  "feedback_reversal_log_interpolated_thresholds": {
+    "eddington_saturated": {
+      "0.5": 4.766209160866687e-06,
+      "1.0": 2.6738192691808683e-06
+    },
+    "transition": {
+      "0.5": 4.5401500925321425e-06,
+      "1.0": 2.485517614678084e-06
+    }
+  },
+  "maximum_mass_budget_residual_code": 5.870859354217828e-13,
+  "sampled_transition_prevention_thresholds": {
+    "0.5": null,
+    "1.0": null
+  }
+}

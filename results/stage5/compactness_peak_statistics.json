@@ -1,0 +1,14 @@
+{
+  "best_case": {
+    "dark_matter_accreted_msun": 16551236.57828011,
+    "final_black_hole_mass_msun": 16850063.924087204,
+    "mass_budget_residual_code": 2.4522606167920458e-12,
+    "scale_radius_over_rs": 0.02,
+    "source": "peak_refinement",
+    "steps": 11013609,
+    "task_id": 2
+  },
+  "case_count": 7,
+  "compactness_peak_is_internal": true,
+  "maximum_mass_budget_residual_code": 3.5056402225563943e-12
+}

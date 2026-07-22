@@ -1,0 +1,82 @@
+{
+  "case_count": 368,
+  "maximum_mass_budget_residual_code": 1.9603518808253284e-10,
+  "models": {
+    "constant_sigma1": {
+      "joint_design_classifier": {
+        "class_count": {
+          "failure": 62,
+          "success": 2
+        },
+        "fit_available": true,
+        "five_fold_accuracy": 0.96875,
+        "five_fold_auc": 0.75,
+        "standardized_coefficients": {
+          "assembly_over_dynamical_time": -0.2090755866113262,
+          "halo_concentration": 0.34270091851824813,
+          "halo_redshift": 0.6113067269905904,
+          "intercept": -4.354124354727533,
+          "log10_halo_mass": -0.00023483962787053996,
+          "log10_scale_radius_over_rs": 0.19773006132183113,
+          "log10_seed_mass": 1.2874207211047617
+        }
+      },
+      "maximum_final_mass_msun": 24317609.24633101,
+      "minimum_successful_seed_msun": 76227.02740580199,
+      "screen_success_count": 14,
+      "screen_success_fraction": 0.15217391304347827
+    },
+    "vd_high_transport": {
+      "joint_design_classifier": {
+        "class_count": {
+          "failure": 61,
+          "success": 3
+        },
+        "fit_available": true,
+        "five_fold_accuracy": 0.953125,
+        "five_fold_auc": 0.8852459016393442,
+        "standardized_coefficients": {
+          "assembly_over_dynamical_time": -0.16159570906538423,
+          "halo_concentration": -0.10147319479146126,
+          "halo_redshift": 0.8428469000035279,
+          "intercept": -4.357169267274513,
+          "log10_halo_mass": 0.08932613116934704,
+          "log10_scale_radius_over_rs": 0.16798564572470062,
+          "log10_seed_mass": 1.5642060036713215
+        }
+      },
+      "maximum_final_mass_msun": 60277290.434222706,
+      "minimum_successful_seed_msun": 76227.02740580199,
+      "screen_success_count": 16,
+      "screen_success_fraction": 0.17391304347826086
+    },
+    "vd_low_transport": {
+      "joint_design_classifier": {
+        "class_count": {
+          "failure": 64,
+          "success": 0
+        },
+        "fit_available": false
+      },
+      "maximum_final_mass_msun": 5536172.528304674,
+      "minimum_successful_seed_msun": null,
+      "screen_success_count": 0,
+      "screen_success_fraction": 0.0
+    },
+    "vd_matched_transport": {
+      "joint_design_classifier": {
+        "class_count": {
+          "failure": 64,
+          "success": 0
+        },
+        "fit_available": false
+      },
+      "maximum_final_mass_msun": 18811380.346904658,
+      "minimum_successful_seed_msun": 100000.0,
+      "screen_success_count": 2,
+      "screen_success_fraction": 0.021739130434782608
+    }
+  },
+  "refinement_case_count": 80,
+  "target_mass_msun": 10000000.0
+}

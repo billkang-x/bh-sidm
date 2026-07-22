@@ -1,0 +1,8 @@
+{
+  "case_count": 3,
+  "maximum_mass_budget_residual_code": 7.229772336359019e-13,
+  "target_reached_count": {
+    "1e6": 3,
+    "1e7": 1
+  }
+}

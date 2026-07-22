@@ -1,0 +1,87 @@
+{
+  "best_case": {
+    "fixed_rmin": {
+      "baryon_accreted_onto_bh_msun": 27.015778478191148,
+      "boundary_protocol": "fixed_rmin",
+      "cells": 253,
+      "dark_accreted_halo_fraction": 0.0019028902560509512,
+      "dark_fraction_of_growth": 0.9860015057754944,
+      "dark_matter_accreted_msun": 1902.8902560509512,
+      "final_black_hole_mass_msun": 2029.906034529146,
+      "halo_concentration": 4.0,
+      "halo_mass_msun": 1000000.0,
+      "halo_redshift": 30.0,
+      "halo_scale_density_msun_pc3": 6.236766360950959,
+      "halo_scale_radius_pc": 25.073543019672805,
+      "mass_budget_residual_code": 7.922551503725117e-13,
+      "r_min_over_influence_radius": 0.49853345377605585,
+      "r_min_over_rs": 0.00019941338151042236,
+      "r_min_pc": 0.005,
+      "steps": 1318211,
+      "task_id": 4
+    },
+    "scaled_rmin": {
+      "baryon_accreted_onto_bh_msun": 2894.6886185757457,
+      "boundary_protocol": "scaled_rmin",
+      "cells": 256,
+      "dark_accreted_halo_fraction": 0.00019056336639774446,
+      "dark_fraction_of_growth": 0.9850371253947698,
+      "dark_matter_accreted_msun": 190563.36639774445,
+      "final_black_hole_mass_msun": 193558.05501632544,
+      "halo_concentration": 4.0,
+      "halo_mass_msun": 1000000000.0,
+      "halo_redshift": 30.0,
+      "halo_scale_density_msun_pc3": 6.236766360950961,
+      "halo_scale_radius_pc": 250.73543019672803,
+      "mass_budget_residual_code": 9.50350909079134e-14,
+      "r_min_over_influence_radius": 416.66666666666663,
+      "r_min_over_rs": 0.00016666666666666666,
+      "r_min_pc": 0.041789238366121334,
+      "steps": 770865,
+      "task_id": 19
+    }
+  },
+  "case_count": 40,
+  "dark_accretion_power_law_slopes": {
+    "fixed_rmin": {
+      "with_halo_mass_at_fixed_redshift": {
+        "z10": -0.3148051915021455,
+        "z15": -0.2762617322662807,
+        "z20": -0.20854163297785713,
+        "z25": -0.12769462632349812,
+        "z30": -0.04015386513522984
+      },
+      "with_one_plus_redshift_at_fixed_mass": {
+        "M1e+06": 2.2545675857433642,
+        "M1e+07": 2.9912399801428884,
+        "M1e+08": 3.5334826049814123,
+        "M1e+09": 4.077019721306499
+      }
+    },
+    "scaled_rmin": {
+      "with_halo_mass_at_fixed_redshift": {
+        "z10": 0.5597718925670763,
+        "z15": 0.5910967386403052,
+        "z20": 0.6290073769879309,
+        "z25": 0.6621231734756259,
+        "z30": 0.6892047054777145
+      },
+      "with_one_plus_redshift_at_fixed_mass": {
+        "M1e+06": 1.673089999967605,
+        "M1e+07": 2.2167865444240764,
+        "M1e+08": 2.579176218012268,
+        "M1e+09": 2.5236348699580446
+      }
+    }
+  },
+  "legacy_anchor_equivalent_m200c_redshift": 25.437249154765098,
+  "maximum_mass_budget_residual_code": 2.5126567493316543e-12,
+  "resolved_case_count_rmin_le_influence_radius": {
+    "fixed_rmin": 6,
+    "scaled_rmin": 5
+  },
+  "scaled_to_fixed_rmin_dark_accretion_ratio": {
+    "maximum": 621.8651956665259,
+    "minimum": 0.8915514719643832
+  }
+}

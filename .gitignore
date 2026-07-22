@@ -1,0 +1,75 @@
+# Local Codex/workbench state
+.agents/
+.workbuddy/
+
+# Python and notebook caches
+__pycache__/
+*.py[cod]
+*.so
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments and credentials
+.venv/
+venv/
+env/
+.env
+.env.*
+*.pem
+*.key
+*credentials*
+*password*
+*secret*
+
+# Cluster-specific submission files and downloaded wheels
+hpc/
+
+# Large/generated simulation products
+results/**/*.npz
+results/**/*.npy
+results/**/*.h5
+results/**/*.hdf5
+results/**/*.fits
+results/**/*.parquet
+results/**/*.asdf
+results/**/*.png
+results/**/*.jpg
+results/**/*.pdf
+
+# Logs and local run outputs
+*.log
+*.out
+*.err
+*.slurm
+*.tmp
+*.bak
+
+# LaTeX build intermediates
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.lof
+paper/*.lot
+paper/*.out
+paper/*.synctex.gz
+paper/*.toc
+paper/revision_build.*
+paper/pdf_page*.png
+paper/preview-*.png
+paper/reader-check-*.png
+paper/figures/stage*.png
+
+# Private/source material not needed for the public release
+2607.02151v1.pdf
+author information.txt
+聊天记录.md
+**/referee_report.docx
+scripts/build_referee_report_docx.py
+
+# Keep the reviewed manuscript PDF; other local reader copies remain private.
+paper/*.pdf
+!paper/kang_sidm_baryon_accretion.pdf
